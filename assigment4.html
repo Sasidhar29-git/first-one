@@ -1,0 +1,43 @@
+<!Doctype html>
+<html>
+    <head></head>
+    <body>
+      <h1>SQUARE PATTERN</h1>
+      <script>
+          for(var i=1;i<=7;i++)
+          {
+              for(var j=0;j<=7;j++)
+              {
+                  document.write('*');
+                  document.write(" ");
+              }
+              document.write("<br/>");
+          }
+      </script>
+      <h1>RIGHT TRIANGLE PATTERN</h1>
+      <script>
+          for(var i=0;i<=7;i++)
+          {
+              for(var j=0;j<=i;j++)
+              {
+                  document.write('*');
+                  document.write(" ");
+              }
+              document.write("<br/>");
+          }
+        </script>
+         <h1>DOWNWARD TRIANGLE PATTERN</h1>
+         <script>
+             var row=7;
+             for(var i=row-1;i>=0;i--)
+             {
+                 for(var j=0;j<=i;j++)
+                 {
+                     document.write("*");
+                     document.write(" ");
+                 }
+                 document.write("<br/>");
+             }
+         </script>
+    </body>
+</html>
